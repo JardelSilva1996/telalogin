@@ -1,10 +1,12 @@
 import React from "react";
-import "./home.css";
+import styles from './home.module.scss';
+
 
 export default function Home(){
     return(
-        <div className="home">
-            <h1>Oi Eu Sou o Goku</h1>
+        <div className={styles.home}>
+            <h1>Bem Vindo</h1>
+            <h2>Jardel Silva</h2>
         </div>
     )
 }
